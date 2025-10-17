@@ -107,7 +107,7 @@ CREATE SCHEMA Person
   )
   CREATE TABLE Address(
     AddressID SERIAL, --  NOT FOR REPLICATION
-    AddressLine1 varchar(60) NOT NULL,
+    AddressLine1 varchar(60) NOT NULL, 
     AddressLine2 varchar(60) NULL,
     City varchar(30) NOT NULL,
     StateProvinceID INT NOT NULL,
